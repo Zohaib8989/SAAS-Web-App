@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, p, input, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+/* Logo styling */
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Main container styling */
+.main {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Credentials section styling */
+.credentials {
+    margin-top: 20px;
+}
+
+.credentials h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.credentials p {
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.credentials input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.credentials button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.credentials button:hover {
+    background-color: #0056b3;
+}
+
+/* Link and additional text styling */
+.credentials a {
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.credentials a button {
+    background-color: #28a745;
+}
+
+.credentials a button:hover {
+    background-color: #218838;
+}
+
+.credentials p:last-of-type {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.credentials p:last-of-type:hover {
+    text-decoration: underline;
+}
